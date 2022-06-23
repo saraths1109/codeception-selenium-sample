@@ -9,7 +9,7 @@ modules:
    enabled:
       - WebDriver:
          url: 'https://lambdatest.github.io/'
-         host: '%LT_USERNAME%:%LT_ACCESS_KEY%@hub.lambdatest.com'
+         host: '%LT_USERNAME%:%LT_ACCESS_KEY%@%HOST%'
          port: 80
          browser: firefox
          capabilities:
